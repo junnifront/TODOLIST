@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+
 body {
     margin:0;
     background-image: url("images/background.jpg");
@@ -37,4 +41,49 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1em;
+}
+
+.task-done {
+    text-decoration: line-through;
+}
+
+.buttons {
+    display: flex;
+}
+
+button {
+    border: none;
+    background: transparent;
+}
+
+h1 {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    margin: 20px;
+    padding-top: 30px;
+}
+
+.input-area{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-area input {
+    border: 2px solid lightgray;
+    width: 300px;
+    text-align: start;
+}
+
+.task-tabs {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+#task-board {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
